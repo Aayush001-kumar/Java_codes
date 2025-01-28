@@ -23,7 +23,7 @@ public class Q23_Vowel_or_Consonant {
             }
         }
         else {
-            System.out.println("gchjds");
+            System.out.println("Please enter a valid input");
         }
         Alphabet.close();
     }
