@@ -11,7 +11,7 @@ public class Q22_greater_btw_two_num {
         if(num1>num2){
             System.out.println(""+num1+" is greater than "+""+num2);
         } else if (num1==num2) {
-            System.out.println("gavar sale \uD83E\uDD72");
+            System.out.println("Both are the same value");
         } else {
             System.out.println(""+num2+" is greater than "+""+num1);
         }

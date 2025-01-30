@@ -9,7 +9,7 @@ public class Q15_Profit_loss {
 
         System.out.print("Enter the Selling Price: ");
         int sellingPrice = scanner.nextInt();
-
+         if(Character)
         if (sellingPrice > costPrice) {
             int profit = sellingPrice - costPrice;
             System.out.println("Profit: " + profit);
