@@ -6,12 +6,23 @@ public class Q20_Capital_or_small {
 
         System.out.println("Enter your Alphabet");
         char alpha = letter.next().charAt(0);
-        if (alpha >= 'A' && alpha <= 'Z') {
-            System.out.println("Given Alphabet is Capital");
-        } else if (alpha >= 'a' && alpha <= 'z') {
-            System.out.println("Given Alphabet is Small");
-        } else {
-            System.out.println("Please enter a valid Alphabet");
+//        if (alpha >= 'A' && alpha <= 'Z') {
+//            System.out.println("Given Alphabet is Capital");
+//        } else if (alpha >= 'a' && alpha <= 'z') {
+//            System.out.println("Given Alphabet is Small");
+//        } else {
+//            System.out.println("Please enter a valid Alphabet");
+//        }
+        if(Character.isAlphabetic(alpha)) {
+            if (Character.isUpperCase(alpha)) {
+                System.out.println("Given Alphabet is Capital");
+            }
+            else{
+                System.out.println("Given Alphabet is Small");
+            }
+        }
+        else {
+            System.out.println("Please enter a valid input");
         }
         letter.close();
     }

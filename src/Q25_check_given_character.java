@@ -5,13 +5,20 @@ public class Q25_check_given_character {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a character: ");
         char ch = scanner.next().charAt(0);
-        if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+//        if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+//            System.out.println(ch + " is an alphabet.");
+//        } else if (ch >= '0' && ch <= '9') {
+//            System.out.println(ch + " is a digit.");
+//        } else {
+//            System.out.println(ch + " is a special symbol.");
+//        }
+
+        if (Character.isAlphabetic(ch)) {
             System.out.println(ch + " is an alphabet.");
-        } else if (ch >= '0' && ch <= '9') {
+        } else if (Character.isDigit(ch)) {
             System.out.println(ch + " is a digit.");
-        } else {
-            System.out.println(ch + " is a special symbol.");
+        }else {
+            System.out.println("Special ch");
         }
-        scanner.close();
     }
 }
