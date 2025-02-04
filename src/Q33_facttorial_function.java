@@ -1,26 +1,28 @@
 import java.util.Scanner;
 
-public class Q37_even {
+public class Q33_facttorial_function {
     Scanner sc = new Scanner(System.in);
-    int num;
+    int num, fact = 1;
 
     void input() {
         System.out.println("Enter a number: ");
         num = sc.nextInt();
     }
 
-    void display() {
-
+    void calculate() {
         for (int i = 1; i <= num; i++) {
-            if (i % 2 == 0) {
-                System.out.println(i);
-            }
+            fact = fact * i;
         }
     }
 
+    void display() {
+        System.out.println("Factorial of " + num + " is: " + fact);
+    }
+
     public static void main(String[] args) {
-        Q37_even obj = new Q37_even();
+        Q33_facttorial_function obj = new Q33_facttorial_function();
         obj.input();
+        obj.calculate();
         obj.display();
     }
 }

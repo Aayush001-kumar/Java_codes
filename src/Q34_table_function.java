@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q34_table {
+public class Q34_table_function {
     Scanner sc = new Scanner(System.in);
     int num;
 
@@ -16,7 +16,7 @@ public class Q34_table {
     }
 
     public static void main(String[] args) {
-        Q34_table obj = new Q34_table();
+        Q34_table_function obj = new Q34_table_function();
         obj.input();
         obj.display();
     }

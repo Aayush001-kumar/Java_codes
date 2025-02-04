@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q40_greater_2 {
+public class Q40_greater_2_function {
     Scanner sc = new Scanner(System.in);
     int num1, num2;
 
@@ -16,7 +16,7 @@ public class Q40_greater_2 {
     }
 
     public static void main(String[] args) {
-        Q40_greater_2 obj = new Q40_greater_2();
+        Q40_greater_2_function obj = new Q40_greater_2_function();
         obj.input();
         obj.check();
     }

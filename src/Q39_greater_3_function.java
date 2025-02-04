@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Q39_greater_3 {
+public class Q39_greater_3_function {
     Scanner sc = new Scanner(System.in);
     int num1, num2, num3;
 
@@ -23,7 +23,7 @@ public class Q39_greater_3 {
     }
 
     public static void main(String[] args) {
-        Q39_greater_3 obj = new Q39_greater_3();
+        Q39_greater_3_function obj = new Q39_greater_3_function();
         obj.input();
         obj.display();
     }

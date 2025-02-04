@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q36_prime {
+public class Q36_prime_function {
     Scanner sc = new Scanner(System.in);
     int num;
     int flag = 0;
@@ -28,7 +28,7 @@ public class Q36_prime {
     }
 
     public static void main(String[] args) {
-        Q36_prime obj = new Q36_prime();
+        Q36_prime_function obj = new Q36_prime_function();
         obj.input();
         obj.logic();
         obj.display();

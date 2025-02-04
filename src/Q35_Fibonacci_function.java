@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q35_Fibonacci {
+public class Q35_Fibonacci_function {
     Scanner sc = new Scanner(System.in);
     int num;
 
@@ -21,7 +21,7 @@ public class Q35_Fibonacci {
     }
 
     public static void main(String[] args) {
-        Q35_Fibonacci obj = new Q35_Fibonacci();
+        Q35_Fibonacci_function obj = new Q35_Fibonacci_function();
         obj.input();
         obj.display();
     }

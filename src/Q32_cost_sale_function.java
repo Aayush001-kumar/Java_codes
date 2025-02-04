@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q32_cost_sale {
+public class Q32_cost_sale_function {
     Scanner sc = new Scanner(System.in);
     int cost, sale, profit;
 
@@ -26,7 +26,7 @@ public class Q32_cost_sale {
     }
 
     public static void main(String[] args) {
-        Q32_cost_sale obj = new Q32_cost_sale();
+        Q32_cost_sale_function obj = new Q32_cost_sale_function();
         obj.input();
         obj.calculate();
         obj.display();

@@ -17,7 +17,6 @@ public class Q31_checking_divisiblity_function {
             System.out.println("NO "+""+num+" is divisible by "+""+div);
         }
     }
-
     public static void main(String[] args) {
         Q31_checking_divisiblity_function number=new Q31_checking_divisiblity_function();
         number.in();

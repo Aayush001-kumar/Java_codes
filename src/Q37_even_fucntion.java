@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q38 {
+public class Q37_even_fucntion {
     Scanner sc = new Scanner(System.in);
     int num;
 
@@ -9,17 +9,18 @@ public class Q38 {
         num = sc.nextInt();
     }
 
-    void print() {
+    void display() {
+
         for (int i = 1; i <= num; i++) {
-            if (i % 3 == 0) {
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
     }
 
     public static void main(String[] args) {
-        Q38 obj = new Q38();
+        Q37_even_fucntion obj = new Q37_even_fucntion();
         obj.input();
-        obj.print();
+        obj.display();
     }
 }
