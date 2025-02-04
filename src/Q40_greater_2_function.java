@@ -11,6 +11,7 @@ public class Q40_greater_2_function {
     }
 
     void check() {
+
         int result = (num1 > num2) ? num1 : num2;
         System.out.println("Greater number is: " + result);
     }
