@@ -14,7 +14,7 @@ public class Q43_reverse_order {
     void input() {
         System.out.println("Enter " + n + " elements");
         for (int i = 0; i < n; i++) {
-            array[i] = number.nextInt(); // Use nextInt() to read each element
+            array[i] = number.nextInt();
         }
     }
 
@@ -35,7 +35,7 @@ public class Q43_reverse_order {
     }
 
     public static void main(String[] args) {
-        Q43_reverse_order object = new Q43_reverse_order(); // Use the correct class name
+        Q43_reverse_order object = new Q43_reverse_order();
         object.first();
         object.input();
         object.reverse();
