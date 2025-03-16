@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q33_facttorial_function {
+public class Q33_factorial_function {
     Scanner sc = new Scanner(System.in);
     int num, fact = 1;
 
@@ -10,6 +10,7 @@ public class Q33_facttorial_function {
     }
 
     void calculate() {
+        
         for (int i = 1; i <= num; i++) {
             fact = fact * i;
         }
@@ -20,7 +21,7 @@ public class Q33_facttorial_function {
     }
 
     public static void main(String[] args) {
-        Q33_facttorial_function obj = new Q33_facttorial_function();
+        Q33_factorial_function obj = new Q33_factorial_function();
         obj.input();
         obj.calculate();
         obj.display();
